@@ -1,15 +1,14 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <RandomImage />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import RandomImage from './components/RandomImage.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    RandomImage
   }
 }
 </script>
